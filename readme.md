@@ -1,4 +1,4 @@
-# Week 6 - Challenge 1
+# Week 6 - Challenge 2
 
 ## Teléfono React + REDUX
 
