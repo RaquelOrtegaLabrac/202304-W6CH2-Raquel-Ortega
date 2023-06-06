@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { Telephone } from "../models/Telephone";
 
 export type PhoneState = {
-  phone: Telephone;
+  phone: Telephone[];
 };
 
 const initialState: PhoneState = {
@@ -11,7 +12,12 @@ const initialState: PhoneState = {
 const slicePhone = createSlice({
   name: "phone",
   initialState,
-  reducers: {},
+  reducers: {
+    addNumber: (),
+    resetNumber: (),
+    call: (),
+    hang: (),
+  },
 });
 
 export const ac = slicePhone.actions;
